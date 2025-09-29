@@ -1,0 +1,39 @@
+project:
+  namespace: 'Platy.AdventureWorks.Entities'
+  directory: .\
+  nullable: true
+  fileScopedNamespace: true
+database:
+  provider: SqlServer
+  # config name to read the connection string from the user secrets file
+  connectionName: 'AdventureWorksDb'
+  # the user secret identifier, can be shared with .net core project
+  userSecretsId: 'cbd8507e-7f3e-4f55-963b-1bbf9e24c26b'
+  schemas:
+    - HumanResources
+    - Person
+    - Production
+    - Purchasing
+    - Sales
+# exclude tables or columns: Changed in v7.x
+  exclude:
+    # list of expressions for tables to exclude, source is Schema.TableName
+    tables:
+      - exact: Production.Document
+    # list of expressions for columns to exclude, source is Schema.TableName.ColumnName
+    columns:
+      - exact: Person.Address.SpatialLocation
+
+data:
+  entity:
+    namespace: '{Project.Namespace}'
+    directory: '{Project.Directory}'
+    document: true
+    entityNaming: Singular 
+    relationshipNaming: Plural
+    mappingAttributes: true
+    prefixWithSchemaName: false
+    renaming:
+      # list of regular expressions to clean property names
+      properties:
+        - ^{Table.Name}(?=Id|Name)

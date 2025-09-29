@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>cbd8507e-7f3e-4f55-963b-1bbf9e24c26b</UserSecretsId>
+    </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Platy.AdventureWorks.Entities</AssemblyName>
+    <PackageId>Platy.AdventureWorks.Entities</PackageId>
+    <Title>Platy.AdventureWorks.Entities</Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Trelston Moraes (@tremorscript)</Authors>
+    <Company>tremorscript.com</Company>
+    <Description>A project template for database interactions using the repository pattern. </Description>
+    <Summary>A set of base classes shared across Platy.AdventureWorks projects.</Summary>
+    <PackageProjectUrl>https://github.com/tremorscript/Platy.AdventureWorks.Entities</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <RepositoryUrl>https://github.com/tremorscript/Platy.AdventureWorks.Entities</RepositoryUrl>
+    <PackageTags>DDD;Domain-Driven Design;Repository;ValueObject;Value Object;Clean Architecture;Clean Architecture Template; Entities</PackageTags>
+    <Version>0.0.4</Version>
+    <PackageReleaseNotes>
+      * Net9
+    </PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="$(SolutionDir)LICENSE" Pack="true" PackagePath="" />
+    <None Include="$(SolutionDir)README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
+

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platy.AdventureWorks.Entities", "src\Platy.AdventureWorks.Entities\Platy.AdventureWorks.Entities.csproj", "{10202080-642C-4924-B1E1-87C871F23CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DAEDF9F-4EFC-474B-93E1-B5EED78152EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AAA0962-6142-4A2A-ABA4-A71702537F1F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10202080-642C-4924-B1E1-87C871F23CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10202080-642C-4924-B1E1-87C871F23CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10202080-642C-4924-B1E1-87C871F23CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10202080-642C-4924-B1E1-87C871F23CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10202080-642C-4924-B1E1-87C871F23CCC} = {4DAEDF9F-4EFC-474B-93E1-B5EED78152EF}
+	EndGlobalSection
+EndGlobal
