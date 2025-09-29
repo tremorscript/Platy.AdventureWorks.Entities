@@ -1,9 +1,6 @@
-# Platy.AdventureWorks.Entities
-
-
 [![Build Project](https://github.com/tremorscript/Platy.AdventureWorks.Entities/actions/workflows/ci.yml/badge.svg)](https://github.com/tremorscript/Platy.AdventureWorks.Entities/actions/workflows/ci.yml)
 
-[![NuGet Version](https://img.shields.io/nuget/v/EntityFrameworkCore.Generator.svg?style=flat-square)](https://www.nuget.org/packages/Platy.AdventureWorks.Entities/)
+[![NuGet Version](https://img.shields.io/nuget/v/Platy.AdventureWorks.Entities?label=Platy.AdventureWorks.Entities)](https://www.nuget.org/packages/Platy.AdventureWorks.Entities/)
 
 # Overview
 
